@@ -1,0 +1,84 @@
+.topBar-Container {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border: 3px;
+  border-color: white;
+  border-style: double;
+  background-color: white;
+}
+.menu-container {
+    padding-top: 50px;
+    height: 1000px;
+    
+}
+
+.menu-content {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+        
+    text-align: center;
+    align-items: bottom;
+
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 100px;
+}
+
+.menu-Title {
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  bottom: 15px;
+  position: absolute;
+  right: 5%;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOutFromTop {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-200%);
+    }
+  }
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(1000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+.menu-in-top {
+  animation: 0.75s ease-in-out 0s 1 slideInFromTop;
+}
+
+.menu-in-right {
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+
+.menu-out {
+    animation: 0.75 ease-in-out 0s 1 slideOutFromTop;
+}
