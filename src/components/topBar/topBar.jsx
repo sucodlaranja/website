@@ -1,35 +1,39 @@
 import "./topBar.css";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
+import { useTransition, animated } from 'react-spring'
 
 function TopBar() {
   const [menu, setMenu] = useState(false);
+  const transition = useTransition(menu, {
+    from: { x:  0, y: 0, opacity: 0 },
+    enter: { x: 0, y: 0, opacity: 1 },
+    leave: { x: 0, y: 0, opacity: 0 },
+  })
 
   function changeMenu() {
     var visibility = !menu;
-    return setMenu(visibility);
+    setMenu(visibility);
   }
 
   function showMenu() {
-    if (menu) {
-      return (
-        <div className="menu-container">
-          <button className="menu-Title menu-in-top" onClick={() => changeMenu()} >Back</button>
-          <div className="menu-content menu-in-top">
-            <p>Home</p>
-            <p>CV</p>
-            <p>About me</p>
-            <p>Portfolio</p>
-          </div>
-        </div>);
-    } else {
-      return (
-        <button className="menu-Title menu-in-top" onClick={() => changeMenu()}>
+    return (
+      <div>
+        <button className="menu-Title" onClick={() => changeMenu()}>
           Menu
         </button>
-      );
-    }
+        <div className="menu-container">
+          {transition((styles, item) => item && <animated.div style={styles}><button className="menu-Title" onClick={() => changeMenu()} >Back</button>
+            <div className="menu-content">
+              <p><a href='/'>Home</a></p>
+              <p>CV</p>
+              <p><a href="/about">About me</a></p>
+              <p>Portfolio</p>
+            </div></animated.div>)}
+        </div>
+      </div>);
   }
+
   return (
     <div className="topBar-Container">
       <div className="icon">{showMenu()}</div>
