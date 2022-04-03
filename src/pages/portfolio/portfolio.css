@@ -9,16 +9,22 @@
 
 .square-container {
     height: 200px;
-    width:  400px;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    
+    color: transparent;
+    text-align: right;
+    text-align: end;
+    background-position: center;
+    background-size: cover;
+
+
     transition: transform 200ms ease-in-out, margin 200ms ease-in-out;
 }
 
 .square-container:hover {
     cursor: pointer;
-    color: orange;
-    background-color: blue;
+    color: black;
+    background-color: #777;
     transform: scale(1.2);
 }
 
@@ -29,6 +35,38 @@
     padding: 5%;
 
 
-    column-gap: 50px;
+    column-gap: 0%;
     row-gap: 0;
+}
+
+.language-container {
+
+    display: inline-block;
+    padding-top: 2%;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 30px;
+    
+    
+
+}
+
+.language {
+    display: inline-block;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    width: 25vh;
+    text-align: center;
+    
+}
+.language:hover {
+    cursor: pointer;
+    background-color: orangered;
+}
+
+.language-first {
+    margin-left: 20%;
+
 }
