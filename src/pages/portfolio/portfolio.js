@@ -4,7 +4,19 @@ function Portfolio() {
   return (
     <div>
       <TopBar />
-      Portfolio
+      <div className="portfolio-container">
+        <div className="grid-container">
+          <a className="square-container">teste1</a>
+          <a className="square-container">teste1</a>
+          <a className="square-container">teste1</a>
+          <a className="square-container">teste1</a>
+          <a className="square-container">teste1</a>
+          <a className="square-container">teste1</a>
+          <a className="square-container">teste1</a>
+          <a className="square-container">teste1</a>
+
+        </div>
+      </div>
     </div>
   );
 }

@@ -4,7 +4,9 @@ function About() {
   return (
     <div>
       <TopBar />
-      About
+      <div className="about">
+        
+      </div>
     </div>
   );
 }

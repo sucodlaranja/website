@@ -1,8 +1,8 @@
 .topBar-Container {
   position: relative;
-  width: 100%;
+  width: 95%;
   height: 50px;
-  border: 3px;
+  
   border-color: white;
   border-style: double;
   background-color: white;
@@ -15,11 +15,12 @@
 
 .menu-content {
     position: absolute;
-    width: 100%;
-    height: 1000px;
+    width: 105%;
+    min-height: 94vh;
         
     text-align: center;
     align-items: bottom;
+    
 
     background: rgba(0, 0, 0, 0.9);
     z-index: 1;
@@ -39,10 +40,14 @@ p {
   cursor: pointer;
   bottom: 15px;
   position: absolute;
-  right: 5%;
+  right: 0%;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+.Home-Button {
+  margin-top: 10%;
 }

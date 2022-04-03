@@ -1,5 +1,4 @@
 import "./topBar.css";
-import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { useTransition, animated } from 'react-spring'
 
@@ -25,10 +24,10 @@ function TopBar() {
         <div className="menu-container">
           {transition((styles, item) => item && <animated.div style={styles}><button className="menu-Title" onClick={() => changeMenu()} >Back</button>
             <div className="menu-content">
-              <p><a href='/'>Home</a></p>
+              <p className="Home-Button"><a href='/'>Home</a></p>
               <p>CV</p>
               <p><a href="/about">About me</a></p>
-              <p>Portfolio</p>
+              <p><a href="/portfolio">Portfolio</a></p>
             </div></animated.div>)}
         </div>
       </div>);
