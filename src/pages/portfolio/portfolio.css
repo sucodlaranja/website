@@ -8,17 +8,22 @@
 }
 
 .square-container {
+    position: relative;
     height: 200px;
     width: 400px;
     
     color: transparent;
-    text-align: right;
-    text-align: end;
     background-position: center;
     background-size: cover;
 
 
     transition: transform 200ms ease-in-out, margin 200ms ease-in-out;
+}
+
+.square-text {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
 }
 
 .square-container:hover {
