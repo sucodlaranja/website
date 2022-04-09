@@ -6,9 +6,29 @@
         "link": "https://blog.flutterando.com.br/introdu%C3%A7%C3%A3o-a-teste-de-widgets-no-flutter-1ac1bd234efd"
     },
     {
-        "name": "testeFLUTTER",
-        "language": ["Flutter"],
-        "image-src": "https://miro.medium.com/max/1280/0*i1v1In2Tn4Stnwnl.jpg",
-        "link": "https://blog.flutterando.com.br/introdu%C3%A7%C3%A3o-a-teste-de-widgets-no-flutter-1ac1bd234efd"
+        "name": "DiscoveryDoor",
+        "language": ["Flutter","Java"],
+        "image-src": "images/discoverydoorLogo.png",
+        "link": "https://github.com/sucodlaranja/DiscoveryDoor"
+    },
+    {
+        "name": "Green Distribution",
+        "language": ["Prolog"],
+        "image-src": "images/Prolog-logo.png",
+        "link": "https://github.com/sucodlaranja/Projeto-IA"
+    },
+    {
+        "name": "Discord Bot",
+        "language": ["Javascript"],
+        "image-src": "images/Discord-Emblema.jpg",
+        "link": "https://github.com/sucodlaranja/Discord-Bot-js"    
     }
+    ,
+    {
+        "name": "Hackaton Sei 22",
+        "language": ["Javascript"],
+        "image-src": "images/hackaton-logo.jpeg",
+        "link": "https://github.com/rsaSantos/Hackathon_SEI_22"    
+    }
+    
 ]

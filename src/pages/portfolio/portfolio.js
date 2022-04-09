@@ -12,7 +12,7 @@ function Portfolio() {
     }
     else {
       for (var i = 0; i < projects.length; i++) {
-        console.log(projects[i])
+        
         if (projects[i].language.includes(language)) {
           temp.push(projects[i])
         }
@@ -37,9 +37,11 @@ function Portfolio() {
         </div>
         <div className="grid-container">
           {state.map((project) =>
-            <div className="square-container" style={{ backgroundImage: `url(${project["image-src"]})` }}>
-              <div className="square-text">{project.name}</div>
-            </div>
+            <a key={project.name} href={project.link}>
+              <div className="square-container" style={{ backgroundImage: `url(${project["image-src"]})` }}>
+                <div className="square-text">{project.name}</div>
+              </div>
+            </a>
           )}
 
         </div>

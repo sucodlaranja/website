@@ -6,7 +6,7 @@ function TopBar() {
   const [menu, setMenu] = useState(false);
   const transition = useTransition(menu, {
     from: { x:  0, y: 0, opacity: 0 },
-    enter: { x: 0, y: 0, opacity: 1 },
+    enter: { x: 0, y: 0, opacity: 1.5 },
     leave: { x: 0, y: 0, opacity: 0 },
   })
 
