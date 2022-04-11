@@ -1,69 +1,69 @@
 .about {
-    z-index: -3;
-    background-color: #282c34;
-    min-height: 94vh;
-    max-height: 200vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  background-color: #282c34;
+  min-height: 94vh;
+  max-height: 200vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .about-container {
-    position: relative;
-    
-    width: 50%;
-    height: 700px;
-    border: #FFF solid 5px;
+  position: relative;
+  width: 50%;
+  height: 700px;
+  border: #fff solid 5px;
 }
 
 .image {
-    position: absolute;
-    left: 0%;
-    display: block;
-    width: 128px;
-    height: 128px;
-    margin: 0 auto 30px;
-    border-radius: 50%;
-    background-color: #FFF;
-    border: 5px solid #FFF;
-    object-fit: cover;
+  position: absolute;
+  left: 0%;
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid #fff;
+  object-fit: cover;
 }
 
 .description {
-    position:absolute;
-    margin-left: 20%;
-    word-wrap: break-word;
+  position: absolute;
+  margin-top: 15%;
 
+  margin-left: 20%;
+  word-wrap: break-word;
 }
 
+.description a {
+  color: white;
+}
 
 @media (max-width: 480px) {
-    .description {
-        position: relative;
-        margin-top: 25%;
-        
-        word-wrap: break-word;
-    
-    }
-    .about-container {
-        position: relative;
-        width: 70%;
-        height: 70%;
-        border: #FFF solid 5px;
-    }
-    .image {
-        position: absolute;
-        left: 0%;
-        display: block;
-        width: 64px;
-        height: 64px;
-        margin: 0 auto 30px;
-        border-radius: 50%;
-        background-color: #FFF;
-        border: 5px solid #FFF;
-        object-fit: cover;
-    }
+  .description {
+    position: absolute;
+    margin-top: 27%;
+    right: 7%;
+    word-wrap: break-word;
+  }
+  .about-container {
+    position: relative;
+    width: 70%;
+    height: 700px;
+    border: #fff solid 5px;
+  }
+  .image {
+    position: absolute;
+    left: 0%;
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid #fff;
+    object-fit: cover;
+  }
 }

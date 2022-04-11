@@ -4,14 +4,6 @@ import "./homepage.css";
 import TypeWriterEffect from "react-typewriter-effect";
 
 function Homepage() {
-  const [word, setword] = useState("Web Developer");
-
-  useEffect(() => {
-    var frases = ["Hello World", "Web Devoloper", "Hi am João Martins!"];
-    setTimeout(() => {
-      setword(frases[Math.floor(Math.random() * frases.length)]);
-    }, 10000);
-  });
   return (
     <div>
       <TopBar />
@@ -27,7 +19,7 @@ function Homepage() {
           cursorColor="orange"
           multiText={[
             "Hello World.",
-            "Hello I'm João! ",
+            "Hello, I'm João! ",
             "Welcome To my Website!",
           ]}
           multiTextDelay={2000}

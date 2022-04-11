@@ -1,37 +1,34 @@
 .topBar-Container {
+  z-index: 3;
   position: relative;
   width: 95%;
   height: 50px;
-  
+
   border-color: white;
   border-style: double;
   background-color: white;
 }
 .menu-container {
-    padding-top: 50px;
-    height: 50px;
-    
+  padding-top: 50px;
+  height: 25px;
 }
 .menu-content {
-    position: absolute;
-    width: 105%;
-    min-height: 94vh;
-        
-    text-align: center;
-    align-items: bottom;
-    
+  position: absolute;
+  width: 105%;
+  min-height: 94vh;
 
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 1;
-    
-    color: white;
-    font-weight: bold;
-    
+  text-align: center;
+  align-items: bottom;
+
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+
+  color: white;
+  font-weight: bold;
 }
 
-
 p {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .menu-Title {
@@ -43,7 +40,7 @@ p {
   right: 0%;
 }
 
-a {
+.menu-container a {
   text-decoration: none;
   color: white;
 }
