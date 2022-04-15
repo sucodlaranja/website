@@ -1,6 +1,7 @@
 import TopBar from "../../components/topBar/topBar";
 import "./portfolio.css";
 import projects from "../../data/projects.json";
+
 import { useState } from "react";
 function Portfolio() {
   const [state, setState] = useState(projects);
@@ -45,6 +46,9 @@ function Portfolio() {
           </button>
           <button onClick={() => changeGrid("Flutter")} className="language">
             Flutter
+          </button>
+          <button onClick={() => changeGrid("Haskell")} className="language">
+            Haskell
           </button>
         </div>
         <div className="grid-container">

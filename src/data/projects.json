@@ -1,34 +1,60 @@
 [
     {
-        "name": "testeC",
-        "language": ["C"],
-        "image-src": "https://miro.medium.com/max/1280/0*i1v1In2Tn4Stnwnl.jpg",
-        "link": "https://blog.flutterando.com.br/introdu%C3%A7%C3%A3o-a-teste-de-widgets-no-flutter-1ac1bd234efd"
+        "name": "Laboratorios de Informatica",
+        "language": [
+            "C",
+            "Java"
+        ],
+        "image-src": "images/java-c-logo.png",
+        "link": "https://github.com/sucodlaranja/LI3"
     },
     {
         "name": "DiscoveryDoor",
-        "language": ["Flutter","Java"],
+        "language": [
+            "Flutter",
+            "Java"
+        ],
         "image-src": "images/discoverydoorLogo.png",
         "link": "https://github.com/sucodlaranja/DiscoveryDoor"
     },
     {
         "name": "Green Distribution",
-        "language": ["Prolog"],
+        "language": [
+            "Prolog"
+        ],
         "image-src": "images/Prolog-logo.png",
         "link": "https://github.com/sucodlaranja/Projeto-IA"
     },
     {
         "name": "Discord Bot",
-        "language": ["Javascript"],
+        "language": [
+            "Javascript"
+        ],
         "image-src": "images/Discord-Emblema.jpg",
-        "link": "https://github.com/sucodlaranja/Discord-Bot-js"    
-    }
-    ,
+        "link": "https://github.com/sucodlaranja/Discord-Bot-js"
+    },
     {
         "name": "Hackaton Sei 22",
-        "language": ["Javascript"],
+        "language": [
+            "Javascript"
+        ],
         "image-src": "images/hackaton-logo.jpeg",
-        "link": "https://github.com/rsaSantos/Hackathon_SEI_22"    
+        "link": "https://github.com/rsaSantos/Hackathon_SEI_22"
+    },
+    {
+        "name": "Calculo de Programas",
+        "language": [
+            "Haskell"
+        ],
+        "image-src": "images/haskell-logo.png",
+        "link": "https://github.com/sucodlaranja/CP2021"
+    },
+    {
+        "name": "myFootballManager",
+        "language": [
+            "Java"
+        ],
+        "image-src": "images/myfootball.png",
+        "link": "https://github.com/sucodlaranja/Projeto-POO"
     }
-    
 ]

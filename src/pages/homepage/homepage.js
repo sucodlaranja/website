@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import TopBar from "../../components/topBar/topBar";
 import "./homepage.css";
 import TypeWriterEffect from "react-typewriter-effect";

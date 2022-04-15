@@ -1,6 +1,7 @@
 import "./topBar.css";
 import { useState } from "react";
 import { useTransition, animated } from 'react-spring'
+import { Link } from "react-router-dom"
 
 function TopBar() {
   const [menu, setMenu] = useState(false);
@@ -24,10 +25,10 @@ function TopBar() {
         <div className="menu-container">
           {transition((styles, item) => item && <animated.div style={styles}><button className="menu-Title" onClick={() => changeMenu()} >Back</button>
             <div className="menu-content">
-              <p className="Home-Button"><a href='/'>Home</a></p>
+              <p className="Home-Button"><Link to='/'>Home</Link></p>
               <p>CV</p>
-              <p><a href="/about">About me</a></p>
-              <p><a href="/portfolio">Portfolio</a></p>
+              <p><Link to="/about">About me</Link></p>
+              <p><Link to="/portfolio">Portfolio</Link></p>
             </div></animated.div>)}
         </div>
       </div>);
