@@ -16,11 +16,7 @@ function Homepage() {
           }}
           startDelay={2000}
           cursorColor="orange"
-          multiText={[
-            "Hello World.",
-            "Hello, I'm João! ",
-            "Welcome To my Website!",
-          ]}
+          multiText={["Hello World.", "I'm João!", "Welcome to my Website!"]}
           multiTextDelay={2000}
           typeSpeed={40}
         />

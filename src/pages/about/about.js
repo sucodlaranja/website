@@ -22,7 +22,7 @@ function About() {
                 that good at any of those.
               </p>
               <p>
-                write me an email if you want to chat at{" "}
+                Write me an email if you want to chat at{" "}
                 <strong>a17ndremonteiro@gmail.com</strong>.
               </p>
             </p>

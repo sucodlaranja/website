@@ -41,12 +41,13 @@
   color: white;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1368px) {
   .description {
     position: absolute;
     margin-top: 27%;
     right: 7%;
     word-wrap: break-word;
+    font-size: calc(5px + 2vmin);
   }
   .about-container {
     position: relative;
@@ -63,7 +64,7 @@
     margin: 0 auto 30px;
     border-radius: 50%;
     background-color: #fff;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
     object-fit: cover;
   }
 }
