@@ -15,15 +15,16 @@ function About() {
               i'm very passionate about coding in geral but i have a special
               place in my heart for distributed systems and security, i'm also
               learning to love web developing as well. In my{" "}
-              <a href="/portfolio">portfolio</a> you can see some of my
-              developed projects.
+              <a href="/portfolio">portfolio</a> or at my{" "}
+              <a href="https://github.com/sucodlaranja">github</a> you can see
+              some of my developed projects.
               <p>
                 Some of my other interests are Music and Cinema, sadly i'm not
                 that good at any of those.
               </p>
               <p>
                 Write me an email if you want to chat at{" "}
-                <strong>a17ndremonteiro@gmail.com</strong>.
+                <strong>a17ndremonteiro@gmail.com</strong>
               </p>
             </p>
           </div>

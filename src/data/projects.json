@@ -1,6 +1,6 @@
 [
     {
-        "name": "Laboratorios de Informatica",
+        "name": "Computer Labs III",
         "language": [
             "C",
             "Java"
@@ -42,7 +42,7 @@
         "link": "https://github.com/rsaSantos/Hackathon_SEI_22"
     },
     {
-        "name": "Calculo de Programas",
+        "name": "Program Calculation Project",
         "language": [
             "Haskell"
         ],
@@ -56,5 +56,29 @@
         ],
         "image-src": "images/myfootball.png",
         "link": "https://github.com/sucodlaranja/Projeto-POO"
+    },
+    {
+        "name": "Management System for Repair Centers",
+        "language": [
+            "Java"
+        ],
+        "image-src": "images/java-logo.png",
+        "link": "https://github.com/sucodlaranja/Projeto_Dss"
+    },
+    {
+        "name": "This Website",
+        "language": [
+            "Javascript"
+        ],
+        "image-src": "logo192.png",
+        "link": "https://github.com/sucodlaranja/website"
+    },
+    {
+        "name": "Language processing Project",
+        "language": [
+            "Python"
+        ],
+        "image-src": "images/python-logo.png",
+        "link": "https://github.com/sucodlaranja/website"
     }
 ]

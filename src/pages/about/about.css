@@ -1,3 +1,7 @@
+.description a {
+  color: white;
+}
+
 .about {
   background-color: #282c34;
   min-height: 94vh;
@@ -10,16 +14,17 @@
 }
 
 .about-container {
-  position: relative;
-  width: 50%;
-  height: 700px;
+  resize: both;
+  overflow: auto;
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  justify-content: space-between;
   border: #fff solid 5px;
 }
 
 .image {
-  position: absolute;
   left: 0%;
-  display: block;
   width: 128px;
   height: 128px;
   margin: 0 auto 30px;
@@ -27,44 +32,11 @@
   background-color: #fff;
   border: 5px solid #fff;
   object-fit: cover;
+  margin-bottom: 4%;
 }
 
 .description {
-  position: absolute;
-  margin-top: 15%;
-
-  margin-left: 20%;
+  margin-left: 10%;
   word-wrap: break-word;
-}
-
-.description a {
-  color: white;
-}
-
-@media (max-width: 1368px) {
-  .description {
-    position: absolute;
-    margin-top: 27%;
-    right: 7%;
-    word-wrap: break-word;
-    font-size: calc(5px + 2vmin);
-  }
-  .about-container {
-    position: relative;
-    width: 70%;
-    height: 700px;
-    border: #fff solid 5px;
-  }
-  .image {
-    position: absolute;
-    left: 0%;
-    display: block;
-    width: 64px;
-    height: 64px;
-    margin: 0 auto 30px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 2px solid #fff;
-    object-fit: cover;
-  }
+  height: 70%;
 }

@@ -50,6 +50,9 @@ function Portfolio() {
           <button onClick={() => changeGrid("Haskell")} className="language">
             Haskell
           </button>
+          <button onClick={() => changeGrid("Python")} className="language">
+            Python
+          </button>
         </div>
         <div className="grid-container">
           {state.map((project) => (

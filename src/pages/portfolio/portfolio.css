@@ -16,6 +16,7 @@
 }
 
 .square-image {
+  z-index: 1;
   position: absolute;
   height: 200px;
   width: 300px;
@@ -25,7 +26,7 @@
 }
 
 .square-image:hover {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 .square-text {
   position: absolute;
@@ -36,7 +37,6 @@
 .square-container:hover {
   cursor: pointer;
   color: white;
-
   transform: scale(1.2);
 }
 
