@@ -1,5 +1,6 @@
 import TopBar from "../../components/topBar/topBar";
 import "./about.css";
+import { Link } from "react-router-dom";
 function About() {
   return (
     <div>
@@ -15,7 +16,7 @@ function About() {
               i'm very passionate about coding in geral but i have a special
               place in my heart for distributed systems and security, i'm also
               learning to love web developing as well. In my{" "}
-              <a href="/portfolio">portfolio</a> or at my{" "}
+              <Link to="/portfolio">portfolio</Link> or at my{" "}
               <a href="https://github.com/sucodlaranja">github</a> you can see
               some of my developed projects.
               <p>
