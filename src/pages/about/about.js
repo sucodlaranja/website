@@ -13,15 +13,16 @@ function About() {
             <strong>software engineering</strong> at{" "}
             <a href="https://www.uminho.pt/PT">University of Minho</a>.
             <p>
-              i'm very passionate about coding in geral but i have a special
-              place in my heart for distributed systems and security, i'm also
-              learning to love web developing as well. In my{" "}
-              <Link to="/portfolio">portfolio</Link> or at my{" "}
-              <a href="https://github.com/sucodlaranja">github</a> you can see
-              some of my developed projects.
+              I'm very passionate about coding, i entered software engineering
+              because i wanted to make video games but while i was learning with
+              the course, i cultivated interest for distributed systems,
+              security and web devoloping. I intend to make my master's degree
+              on this subjects. At my <Link to="/portfolio">portfolio</Link> or
+              in my <a href="https://github.com/sucodlaranja/">github</a> you
+              can see some of my developed projects.
               <p>
-                Some of my other interests are Music and Cinema, sadly i'm not
-                that good at any of those.
+                Some of my other interests are Music, Cinema, Video games and
+                Reading.
               </p>
               <p>
                 Write me an email if you want to chat at{" "}
