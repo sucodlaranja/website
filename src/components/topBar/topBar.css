@@ -1,26 +1,31 @@
 .topBar-Container {
+  position: relative;
+  width: 95%;
+  height: 50px;
+  border-color: white;
+  border-style: double;
+  background-color: white;
+}
+
+.topBarOn-Container {
   z-index: 3;
   position: relative;
   width: 95%;
   height: 50px;
-
   border-color: white;
   border-style: double;
   background-color: white;
 }
 .menu-container {
-  padding-top: 50px;
-  height: 100%;
+  position: absolute;
+  z-index: 3;
+  height: 94%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
 }
 .menu-content {
-  position: absolute;
-  width: 106%;
-  min-height: 94vh;
+  z-index: 3;
   text-align: center;
-
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 1;
-
   color: white;
   font-weight: bold;
 }
