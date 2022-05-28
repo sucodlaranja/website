@@ -10,15 +10,13 @@
 }
 .menu-container {
   padding-top: 50px;
-  height: 25px;
+  height: 100%;
 }
 .menu-content {
   position: absolute;
-  width: 105%;
+  width: 106%;
   min-height: 94vh;
-
   text-align: center;
-  align-items: bottom;
 
   background: rgba(0, 0, 0, 0.9);
   z-index: 1;

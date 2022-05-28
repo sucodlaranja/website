@@ -9,15 +9,15 @@ function About() {
         <div className="about-container">
           <img className="image" alt="eu" src="images/eu.jpeg" />
           <div className="description">
-            Hi i'm João, i'm currently studying{" "}
+            Hi I'm João, I'm currently studying{" "}
             <strong>software engineering</strong> at{" "}
             <a href="https://www.uminho.pt/PT">University of Minho</a>.
             <p>
-              I'm very passionate about coding, i entered software engineering
-              because i wanted to make video games but while i was learning with
-              the course, i cultivated interest for distributed systems,
+              I'm very passionate about coding, I entered software engineering
+              because I wanted to develop video games but while i was learning
+              with the course, I cultivated interest for distributed systems,
               security and web devoloping. I intend to make my master's degree
-              on this subjects. At my <Link to="/portfolio">portfolio</Link> or
+              on these subjects. At my <Link to="/portfolio">portfolio</Link> or
               in my <a href="https://github.com/sucodlaranja/">github</a> you
               can see some of my developed projects.
               <p>

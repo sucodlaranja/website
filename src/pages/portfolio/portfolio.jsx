@@ -1,8 +1,10 @@
 import TopBar from "../../components/topBar/topBar";
 import "./portfolio.css";
 import projects from "../../data/projects.json";
+import languages from "../../data/languages.json";
 
 import { useState } from "react";
+
 function Portfolio() {
   const [state, setState] = useState(projects);
 
@@ -20,39 +22,29 @@ function Portfolio() {
     setState(temp);
   }
 
+
+  function makeCodeLanguages() {
+    return languages.map((lang) => (
+      <button className="language" onClick={() => changeGrid(lang)}>{lang}</button>
+    ));
+  }
+
   return (
     <div>
       <TopBar />
 
       <div className="portfolio-container">
         <div className="language-container">
+
           <button
             onClick={() => changeGrid("All")}
             className="language language-first"
           >
             All
           </button>
-          <button onClick={() => changeGrid("C")} className="language">
-            C
-          </button>
-          <button onClick={() => changeGrid("Prolog")} className="language">
-            Prolog
-          </button>
-          <button onClick={() => changeGrid("Java")} className="language">
-            Java
-          </button>
-          <button onClick={() => changeGrid("Javascript")} className="language">
-            Javascript
-          </button>
-          <button onClick={() => changeGrid("Flutter")} className="language">
-            Flutter
-          </button>
-          <button onClick={() => changeGrid("Haskell")} className="language">
-            Haskell
-          </button>
-          <button onClick={() => changeGrid("Python")} className="language">
-            Python
-          </button>
+          {makeCodeLanguages()}
+
+
         </div>
         <div className="grid-container">
           {state.map((project) => (

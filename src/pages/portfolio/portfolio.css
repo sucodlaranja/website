@@ -1,7 +1,7 @@
 .portfolio-container {
   background-color: #282c34;
   min-height: 94vh;
-  max-height: 200vh;
+  max-height: 100%;
 
   font-size: calc(10px + 2vmin);
   color: white;
