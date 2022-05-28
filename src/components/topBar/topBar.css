@@ -43,8 +43,17 @@ p {
   right: 0%;
 }
 
+.thisPage {
+  display: inline-flex;
+  font-weight: 900;
+}
+
 .menu-container a {
   text-decoration: none;
+  color: white;
+}
+.menu-container a:hover {
+  text-decoration: underline;
   color: white;
 }
 

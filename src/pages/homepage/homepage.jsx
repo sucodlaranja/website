@@ -5,7 +5,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 function Homepage() {
   return (
     <div>
-      <TopBar />
+      <TopBar name="Home" />
       <header className="homepage">
         <TypeWriterEffect
           textStyle={{

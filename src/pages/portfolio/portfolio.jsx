@@ -31,7 +31,7 @@ function Portfolio() {
 
   return (
     <div>
-      <TopBar />
+      <TopBar name="Portfolio" />
 
       <div className="portfolio-container">
         <div className="language-container">
