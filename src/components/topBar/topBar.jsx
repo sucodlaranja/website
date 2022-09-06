@@ -29,6 +29,11 @@ function TopBar(props) {
     "class": ""
   },
   {
+    "link": "/experience",
+    "name": "Experience",
+    "class": ""
+  },
+  {
     "link": "/portfolio",
     "name": "Portfolio",
     "class": ""
@@ -54,7 +59,7 @@ function TopBar(props) {
     return (
       menuContent.map((content) => {
         if (content.name === props.name) {
-          return (<p className={content.class} ><div className="thisPage"><GoPrimitiveDot /><Link to={content.link}>{content.name}</Link></div></p>)
+          return (<p className={content.class} ><div className="thisPage  items-center"><GoPrimitiveDot /><Link to={content.link}>{content.name}</Link></div></p>)
         }
         return (<p className={content.class} ><Link to={content.link}>{content.name}</Link></p>)
       }))
@@ -66,9 +71,11 @@ function TopBar(props) {
       <div>
         {!menu &&
           <div className="topBar-Container">
-            <button className="menu-Title" onClick={() => changeMenu()}>
+
+            <button className="menu-Title " onClick={() => changeMenu()}>
               Menu
             </button>
+
           </div>
         }
         {menu && <div>
@@ -80,12 +87,7 @@ function TopBar(props) {
           <div className="menu-container">
             {transition((styles, item) => item && <animated.div style={styles}>
               <div className="menu-content">
-                {/*
-                <p className="Home-Button"><Link to='/'>Home</Link></p>
-                <p>CV</p>
-                <p><Link to="/about">About me</Link></p>
-                <p><Link to="/portfolio">Portfolio</Link></p>
-                */ }
+
                 {showMenuContent()}
               </div>
             </animated.div>)}

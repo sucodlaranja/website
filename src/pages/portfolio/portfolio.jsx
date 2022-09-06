@@ -1,12 +1,26 @@
 import TopBar from "../../components/topBar/topBar";
 import "./portfolio.css";
-import projects from "../../data/projects.json";
+
 import languages from "../../data/languages.json";
 
 import { useState } from "react";
+import { useEffect } from "react";
+
+let projects = [];
 
 function Portfolio() {
+  useEffect(() => {
+    const projectsfetch = async () => {
+      let response = await fetch("https://sucodlaranja.github.io/Files/projects.json")
+      projects = await response.json()
+
+      setState(projects)
+    }
+    projectsfetch()
+
+  }, [])
   const [state, setState] = useState(projects);
+
 
   function changeGrid(language) {
     var temp = [];
@@ -33,7 +47,7 @@ function Portfolio() {
     <div>
       <TopBar name="Portfolio" />
 
-      <div className="portfolio-container">
+      <div className="portfolio-container ">
         <div className="language-container">
 
           <button
@@ -46,10 +60,10 @@ function Portfolio() {
 
 
         </div>
-        <div className="grid-container">
+        <div className="grid-container ">
           {state.map((project) => (
-            <a key={project.name} href={project.link}>
-              <div className="square-container">
+            <a key={project.name} href={project.link} target='_blank' rel='noopener noreferrer'>
+              <div className="square-container hover:z-10 ">
                 <div
                   className="square-image"
                   style={{ backgroundImage: `url(${project["image-src"]})` }}
