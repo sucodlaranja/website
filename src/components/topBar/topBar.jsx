@@ -19,7 +19,7 @@ function TopBar(props) {
     "class": "Home-Button"
   },
   {
-    "link": "",
+    "link": "JoaoMartinsCV.pdf",
     "name": "CV",
     "class": ""
   },
@@ -58,9 +58,13 @@ function TopBar(props) {
   function showMenuContent() {
     return (
       menuContent.map((content) => {
-        if (content.name === props.name) {
+        if (content.name === "CV") {
+          return (<p className={content.class} ><a href={content.link} target='_blank' rel='noopener noreferrer'>{content.name}</a></p>)
+        }
+        else if (content.name === props.name) {
           return (<p className={content.class} ><div className="thisPage  items-center"><GoPrimitiveDot /><Link to={content.link}>{content.name}</Link></div></p>)
         }
+
         return (<p className={content.class} ><Link to={content.link}>{content.name}</Link></p>)
       }))
 
