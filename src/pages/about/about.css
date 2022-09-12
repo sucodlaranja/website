@@ -2,8 +2,7 @@
   color: white;
 }
 
-.about {
-  background-color: #282c34;
+.about-container {
   height: 95vh;
   display: flex;
   align-items: center;
@@ -12,9 +11,9 @@
   color: white;
 }
 
-.about-container {
+.about-Card {
   resize: both;
-  overflow: auto;
+
   position: absolute;
   width: 70%;
   height: 70%;
@@ -37,5 +36,6 @@
 .description {
   margin-left: 10%;
   word-wrap: break-word;
-  height: 70%;
+  height: 75%;
+  overflow: auto;
 }

@@ -23,12 +23,6 @@
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
 }
-.menu-content {
-  z-index: 3;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
 
 p {
   margin-bottom: 100px;

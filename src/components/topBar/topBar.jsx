@@ -3,8 +3,13 @@ import { useState } from "react";
 import { useTransition, animated } from 'react-spring'
 import { Link } from "react-router-dom"
 import { GoPrimitiveDot } from "react-icons/go";
+import { useLocation } from 'react-router-dom'
 
-function TopBar(props) {
+
+
+
+function TopBar() {
+  const location = useLocation().pathname
   const [menu, setMenu] = useState(false);
   const [middle, setmiddle] = useState(false);
   const transition = useTransition(middle, {
@@ -13,6 +18,8 @@ function TopBar(props) {
     leave: { x: -150, y: 0, opacity: 0 },
 
   })
+
+
   const menuContent = [{
     "link": "/",
     "name": "Home",
@@ -57,15 +64,15 @@ function TopBar(props) {
   }
   function showMenuContent() {
     return (
-      menuContent.map((content) => {
+      menuContent.map((content, index) => {
         if (content.name === "CV") {
-          return (<p className={content.class} ><a href={content.link} target='_blank' rel='noopener noreferrer'>{content.name}</a></p>)
+          return (<div key={index} className={content.class} ><a href={content.link} onClick={() => changeMenu()} target='_blank' rel='noopener noreferrer'>{content.name}</a></div>)
         }
-        else if (content.name === props.name) {
-          return (<p className={content.class} ><div className="thisPage  items-center"><GoPrimitiveDot /><Link to={content.link}>{content.name}</Link></div></p>)
+        else if (content.link === location) {
+          return (<div key={index} className={content.class} ><div className="items-center thisPage" onClick={() => changeMenu()}><GoPrimitiveDot color="white" /><Link to={content.link} >{content.name}</Link></div></div>)
         }
 
-        return (<p className={content.class} ><Link to={content.link}>{content.name}</Link></p>)
+        return (<div key={index} className={content.class} ><Link to={content.link} onClick={() => changeMenu()}>{content.name}</Link></div>)
       }))
 
   }
@@ -88,17 +95,19 @@ function TopBar(props) {
               <button className="menu-Title" onClick={() => changeMenu()} >Back</button>
             </div></animated.div>)}
 
-          <div className="menu-container">
+          <div className=" menu-container">
             {transition((styles, item) => item && <animated.div style={styles}>
-              <div className="menu-content">
+              <div className="flex flex-col justify-center h-full text-center space-y-14">
 
                 {showMenuContent()}
+
               </div>
             </animated.div>)}
           </div>
 
         </div>
         }
+
       </div>
     );
   }

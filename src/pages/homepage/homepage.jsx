@@ -1,26 +1,24 @@
-import TopBar from "../../components/topBar/topBar";
 import "./homepage.css";
 import TypeWriterEffect from "react-typewriter-effect";
 
 function Homepage() {
   return (
-    <div>
-      <TopBar name="Home" />
-      <header className="homepage">
-        <TypeWriterEffect
-          textStyle={{
-            fontFamily: "Red Hat Display",
-            color: "white",
-            fontWeight: 500,
-            fontSize: "1.5em",
-          }}
-          startDelay={2000}
-          cursorColor="orange"
-          multiText={["Hello World.", "I'm João!", "Welcome to my Website!"]}
-          multiTextDelay={2000}
-          typeSpeed={40}
-        />
-      </header>
+    <div className="homepage-container">
+
+      <TypeWriterEffect
+        textStyle={{
+          fontFamily: "Red Hat Display",
+          color: "white",
+          fontWeight: 500,
+          fontSize: "1.5em",
+        }}
+        startDelay={2000}
+        cursorColor="orange"
+        multiText={["Hello World.", "I'm João!", "Welcome to my Website!"]}
+        multiTextDelay={2000}
+        typeSpeed={40}
+      />
+
     </div>
   );
 }

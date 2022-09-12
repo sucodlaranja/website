@@ -1,7 +1,6 @@
 .portfolio-container {
   background-color: #282c34;
   height: 95vh;
-
   font-size: calc(10px + 2vmin);
   color: white;
 }
