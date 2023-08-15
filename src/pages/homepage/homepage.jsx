@@ -4,7 +4,6 @@ import TypeWriterEffect from "react-typewriter-effect";
 function Homepage() {
   return (
     <div className="homepage-container">
-
       <TypeWriterEffect
         textStyle={{
           fontFamily: "Red Hat Display",
@@ -12,13 +11,16 @@ function Homepage() {
           fontWeight: 500,
           fontSize: "1.5em",
         }}
-        startDelay={2000}
+        startDelay={1000}
         cursorColor="orange"
-        multiText={["Hello World.", "I'm João!", "Welcome to my Website!"]}
+        multiText={[
+          "Hello World.",
+          "Welcome to my Website!",
+          "I'm João Martins!",
+        ]}
         multiTextDelay={2000}
         typeSpeed={40}
       />
-
     </div>
   );
 }

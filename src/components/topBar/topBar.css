@@ -1,15 +1,4 @@
-.topBar-Container {
-  position: relative;
-  width: 95%;
-  height: 5vh;
-  border-color: white;
-  border-style: double;
-  background-color: white;
-}
-
 .topBarOn-Container {
-  z-index: 3;
-  position: relative;
   width: 95%;
   height: 5vh;
   border-color: white;
@@ -26,15 +15,6 @@
 
 p {
   margin-bottom: 100px;
-}
-
-.menu-Title {
-  font-weight: bold;
-  color: black;
-  cursor: pointer;
-  bottom: 15px;
-  position: absolute;
-  right: 0%;
 }
 
 .thisPage {

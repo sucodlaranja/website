@@ -1,84 +1,68 @@
 [
-    {
-        "name": "Computer Labs III",
-        "language": [
-            "C",
-            "Java"
-        ],
-        "image-src": "images/java-c-logo.png",
-        "link": "https://github.com/sucodlaranja/LI3"
-    },
-    {
-        "name": "DiscoveryDoor",
-        "language": [
-            "Flutter",
-            "Java"
-        ],
-        "image-src": "images/discoverydoorLogo.png",
-        "link": "https://github.com/sucodlaranja/DiscoveryDoor"
-    },
-    {
-        "name": "Green Distribution",
-        "language": [
-            "Prolog"
-        ],
-        "image-src": "images/Prolog-logo.png",
-        "link": "https://github.com/sucodlaranja/Projeto-IA"
-    },
-    {
-        "name": "Discord Bot",
-        "language": [
-            "Javascript"
-        ],
-        "image-src": "images/Discord-Emblema.jpg",
-        "link": "https://github.com/sucodlaranja/Discord-Bot-js"
-    },
-    {
-        "name": "Hackaton Sei 22",
-        "language": [
-            "Javascript"
-        ],
-        "image-src": "images/hackaton-logo.jpeg",
-        "link": "https://github.com/rsaSantos/Hackathon_SEI_22"
-    },
-    {
-        "name": "Program Calculation Project",
-        "language": [
-            "Haskell"
-        ],
-        "image-src": "images/haskell-logo.png",
-        "link": "https://github.com/sucodlaranja/CP2021"
-    },
-    {
-        "name": "myFootballManager",
-        "language": [
-            "Java"
-        ],
-        "image-src": "images/myfootball.png",
-        "link": "https://github.com/sucodlaranja/Projeto-POO"
-    },
-    {
-        "name": "Management System for Repair Centers",
-        "language": [
-            "Java"
-        ],
-        "image-src": "images/java-logo.png",
-        "link": "https://github.com/sucodlaranja/Projeto_Dss"
-    },
-    {
-        "name": "This Website",
-        "language": [
-            "Javascript"
-        ],
-        "image-src": "logo192.png",
-        "link": "https://github.com/sucodlaranja/website"
-    },
-    {
-        "name": "Language processing Project",
-        "language": [
-            "Python"
-        ],
-        "image-src": "images/python-logo.png",
-        "link": "https://github.com/sucodlaranja/PlAssignment"
-    }
+  {
+    "name": "Computer Labs III",
+    "language": ["C", "Java"],
+    "image-src": "images/java-c-logo.png",
+    "link": "https://github.com/sucodlaranja/LI3"
+  },
+  {
+    "name": "DiscoveryDoor",
+    "language": ["Flutter", "Java"],
+    "image-src": "images/discoverydoorLogo.png",
+    "link": "https://github.com/sucodlaranja/DiscoveryDoor"
+  },
+  {
+    "name": "Green Distribution",
+    "language": ["Prolog"],
+    "image-src": "images/Prolog-logo.png",
+    "link": "https://github.com/sucodlaranja/Projeto-IA"
+  },
+  {
+    "name": "Discord Bot",
+    "language": ["Javascript"],
+    "image-src": "images/Discord-Emblema.jpg",
+    "link": "https://github.com/sucodlaranja/Discord-Bot-js"
+  },
+  {
+    "name": "Program Calculation Project",
+    "language": ["Haskell"],
+    "image-src": "images/haskell-logo.png",
+    "link": "https://github.com/sucodlaranja/CP2021"
+  },
+  {
+    "name": "myFootballManager",
+    "language": ["Java"],
+    "image-src": "images/myfootball.png",
+    "link": "https://github.com/sucodlaranja/Projeto-POO"
+  },
+  {
+    "name": "Management System for Repair Centers",
+    "language": ["Java"],
+    "image-src": "images/java-logo.png",
+    "link": "https://github.com/sucodlaranja/Projeto_Dss"
+  },
+  {
+    "name": "This Website",
+    "language": ["Javascript"],
+    "image-src": "logo192.png",
+    "link": "https://github.com/sucodlaranja/website"
+  },
+  {
+    "name": "Language processing Project",
+    "language": ["Python"],
+    "image-src": "images/python-logo.png",
+    "link": "https://github.com/sucodlaranja/PlAssignment"
+  },
+  {
+    "name": "Hackaton Sei 22",
+    "language": ["React Native", "Java"],
+    "image-src": "images/tinc.png",
+    "link": "https://github.com/rsaSantos/Hackathon_SEI_22"
+  },
+  {
+    "name": "TincQuest",
+    "language": ["Vue", "Python", "Solidity"],
+    "image-src": "images/tinc.png",
+    "link": "https://github.com/rsaSantos/TincQuest"
+  }
 ]
